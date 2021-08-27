@@ -1,15 +1,15 @@
 
-import lmcustom from './lm-custom'
+import lmecharts from './lm-echarts'
 import echarts from 'echarts'
-const lmcustom_el = {
+const lmcustom = {
   install(Vue, options) {
-    Vue.component(lmcustom.name, lmcustom)
+    Vue.component(lmecharts.name, lmecharts)
     Vue.prototype.$echarts = echarts
   }
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(lmcustom_el);
+  window.Vue.use(lmcustom);
 }
 
-export default lmcustom_el
+export default lmcustom

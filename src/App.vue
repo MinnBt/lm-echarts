@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div style="width: 500px;height: 300px;">
-      <lm-custom
+      <lm-echarts
         :cfCustom="cfCustom"
         @onChangeData="onChangeData"
-      ></lm-custom>
+      ></lm-echarts>
     </div>
   </div>
 </template>

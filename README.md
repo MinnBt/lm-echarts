@@ -11,13 +11,13 @@
 
 ``` bash
 # install dependencies
-1.npm install lm-custom
+1.npm install lm-echarts
 
 2.main.js
-import lmcustom from 'lm-custom'
+import lmcustom from 'lm-echarts'
 Vue.use(lmcustom);
 
-3.在页面直接<lm-custom></lm-custom>使用
+3.在页面直接<lm-echarts></lm-echarts>使用
 
 （1）参数 cfCustom type:Object
      id:String (必选)
@@ -35,7 +35,7 @@ Vue.use(lmcustom);
           type:String,
           data:Array
   (3)事件  @onChangeData 参数（el）
-     在为破坏Echarts源码的情况下使用el.setOption({})
+     在未破坏Echarts源码的情况下使用el.setOption({})
 
 
 What today will be like is up to me , I get to choose what kind of day I will have.

@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "lm-custom",
+  name: "lm-echarts",
   props:{
     cfCustom:{
       type:Object,
