@@ -1,11 +1,11 @@
 {
   "name": "lm-echarts",
   "description": "A Vue.js project",
-  "version": "1.0.1",
-  "author": "李成 <licheng@lumlord.com>",
+  "version": "1.0.5",
+  "author": "<licheng@lumlord.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/lmcustombar.js",
+  "main": "dist/lm-echarts.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/MinnBt/lm-echarts"

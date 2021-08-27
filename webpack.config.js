@@ -7,9 +7,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    // filename: 'build.js',
-    filename: 'lmcustombar.js',
-    library: 'lmcustombar',
+    //filename: 'build.js',
+    filename: 'lm-echarts.js',
+    library: 'lmEcharts',
     libraryTarget: "umd",
     umdNamedDefine: true
   },
