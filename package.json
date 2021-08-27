@@ -8,7 +8,7 @@
   "main": "dist/lmcustombar.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MinnBt/lm-custom"
+    "url": "https://github.com/MinnBt/lm-echarts"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
