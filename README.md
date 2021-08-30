@@ -14,8 +14,8 @@
 1.npm install lm-echarts
 
 2.main.js
-import lmcustom from 'lm-echarts'
-Vue.use(lmcustom);
+import lmEcharts from 'lm-echarts'
+Vue.use(lmEcharts);
 
 3.在页面直接<lm-echarts></lm-echarts>使用
 
